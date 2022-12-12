@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.imagem img {
+    height: 30px;
+    width: 60px;
+    margin-top: 30px;
+}
+section {
+    display: flex; 
+    flex-direction: column;
+  justify-content: space-around; 
+    align-items: center; 
+    text-align: center;  
+       
+           
+    
+}
+#form { 
+    background-color: rgb(243, 220, 220);
+    border-radius: 20px;
+    width: 35%;
+}
+#resposta {
+    background-color: rgb(243, 220, 220);
+    border-radius: 20px;
+    width: 35%;
+    margin-top: -30px;
+}
+input {
+    border-radius: 10px;
+    border: none;
+    margin-top: 8px;
+    height: 20px;
+    width: 200px;
+}
+#botao {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 20px;
+}
